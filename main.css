@@ -1,0 +1,7 @@
+body {
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: scroll;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
