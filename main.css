@@ -5,3 +5,13 @@ body {
     background-blend-mode: lighten;
     background-size: cover;
 }
+
+.textMainWrapper {
+    text-align: center; /* the entire text block */
+}
+
+.textMain {
+    width: 60%;
+    text-align: justify; /* the text within it */
+    display: inline-block;
+}
