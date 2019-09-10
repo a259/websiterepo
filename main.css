@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
 body {
     background-repeat: repeat-y;
     background-position: center;
@@ -6,12 +8,85 @@ body {
     background-size: cover;
 }
 
-.textMainWrapper {
+.splash {
+    font-family: 'Fredoka One';
+    font-size: 48px;
+    text-shadow: 3px 3px 3px #aaa;
+    text-align: center;
+    /* how to center an element (multi-viewport) */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}.vscode { /* Logo image size */
+    height: 33%;
+    width: 33%;
+    opacity: 0.6;
+}.centered {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.textMainWrapper { /* This encloses textMain */
     text-align: center; /* the entire text block */
+}.textMain {
+    width: 60%;
+    text-align: left; /* This is enclosed within textMainWrapper */
+    display: inline-block;
+    font-family: 'Muli';
+    font-size: 17px;
+    text-shadow: 0.5px 0.5px 3.3px #666; /* h-shadow, v-shadow, blur radius */
+/*Oxygen,Nunito,Poppins,Ubuntu,Arvo,Rubik,Montserrat,Roboto,Archivo,IBM Plex,Muli*/
 }
 
-.textMain {
-    width: 60%;
-    text-align: justify; /* the text within it */
-    display: inline-block;
+.logo{
+    font-family: 'Fredoka One'; font-size: 48px;
+    text-shadow: 0.5px 0.5px 4px #666; /* h-shadow, v-shadow, blur radius */
+    margin: 0; padding: 0;
+}.tagline{
+    font-family: 'Fredoka One'; font-size: 12px;
+    text-shadow: 0.5px 0.5px 4px #666; /* h-shadow, v-shadow, blur radius */
+    margin: 0; padding: 0;
+}
+
+footer .x {
+    font-family: 'Fredoka One'; font-size: 16px;
+    text-shadow: 0.5px 0.5px 4px #666; /* h-shadow, v-shadow, blur radius */
+}footer .y {
+    font-family: 'Fredoka One'; font-size: 12px;
+    text-shadow: 0.5px 0.5px 6px #666; /* h-shadow, v-shadow, blur radius */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}.flex-container > div {
+    margin: 0; padding: 0;
+    text-align: center;
+}
+
+.cont2 {
+    flex-direction: row;
+    border: 1px solid green;
+}
+.box {
+    font-family: 'Fredoka One'; font-size: 48px;
+    text-shadow: 0.5px 0.5px 8px #666;
+    width: 10%;
+    border: 1px solid green;
+    /* padding-top: 50px; */
+    /* How the hell do i drop this text a little bit */
 }
