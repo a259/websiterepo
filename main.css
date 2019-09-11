@@ -77,7 +77,7 @@ a {
 }.box {
     font-family: 'Fredoka One'; font-size: 48px;
     text-shadow: 0.5px 0.5px 8px #666;
-    width: 10%;
+    width: auto;
     color: white;
     opacity: 0.75;
     padding-right: 25px;
@@ -111,3 +111,52 @@ html {
     font-family: 'Fredoka One'; font-size: 16px;
     text-shadow: 0.5px 0.5px 4px #666;
 }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+    /* opacity: 0.75; */
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+    /* opacity: 0.75; */
+}
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /* opacity: 0.75; */
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    /* min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    opacity: 1;
+    border-radius: 25px;
+
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    padding-left: 127px;
+    display: block;
+    opacity: 0.75;
+    border-radius: 25px;
+
+}  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
