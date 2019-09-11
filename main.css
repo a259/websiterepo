@@ -43,7 +43,7 @@ body { /* all pages */
     display: inline-block;
     font-family: 'Muli';
     font-size: 17px;
-    opacity: 0.75;
+    opacity: 0.7; /* 0.75 previously good */
     text-shadow: 0.5px 0.5px 3.3px #666; /* h-shadow, v-shadow, blur radius */
 /*Oxygen,Nunito,Poppins,Ubuntu,Arvo,Rubik,Montserrat,Roboto,Archivo,IBM Plex,Muli*/
 }
