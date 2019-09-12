@@ -75,6 +75,7 @@ a {
     padding-left: 25px;
     color: white;
     opacity: 0.75;
+    padding-top: 1px;
 }
 .cont2 {
     flex-direction: row;
@@ -148,7 +149,6 @@ html {
     /* z-index: 1; */
     opacity: 1;
     border-radius: 25px;
-
 }
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -202,7 +202,7 @@ html {
     z-index: -1; */
 }
 .gridpic {
-    width: 98vw; /* Completely redundant */
+    width: 98vw; /* leave it */
 } 
 .pic {
     width: 100%;
